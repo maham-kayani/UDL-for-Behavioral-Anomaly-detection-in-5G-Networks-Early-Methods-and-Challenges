@@ -1,5 +1,6 @@
 # UDL-for-Behavioral-and-Quality-Anomaly-Detection-in-5G-Networks-Early-Methods-and-Challenges
-An unsupervised machine learning pipeline designed to detect unusual smartphone usage and behavioral patterns (such as extreme battery drain and heavy data usage) using a Deep FeedForward Autoe
+An unsupervised machine learning pipeline designed to detect unusual smartphone usage and behavioral patterns (such as extreme battery drain and heavy data usage) using a Deep FeedForward 
+Autoencoder
 
 ## 📊 Dataset & What We Started With
 * **Dataset:** [Smartphone Usage and Behavioral Dataset on Kaggle](https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset?resource=download) (by Bhadra Mohit).
