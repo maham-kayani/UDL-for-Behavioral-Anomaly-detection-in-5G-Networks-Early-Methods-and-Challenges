@@ -44,8 +44,11 @@ Autoencoder
 * **Precision (90%):** Out of all flagged alerts, 9 out of 10 are real anomalies with very few false alarms.
 * **Recall (97%):** The model successfully catches almost all actual behavioral anomalies hidden in the dataset.
 * **F1-Score (93%):** A balance between precision and recall, proving our reconstruction error threshold is well-tuned.
-*(Check the attached diagram for our complete pipeline workflow!)*
 
+## 📐 Pipeline Architecture
+*Check the attached diagram for our complete pipeline workflow!*
+
+![Pipeline Architecture](model.png)
 ---
 
 ## 💡 How It All Works Together
