@@ -39,8 +39,12 @@ Autoencoder
   * **Precision:** 90%
   * **Recall:** 97%
   * **F1-Score:** 93%
-
-*(Check the attached diagram for our complete end-to-end workflow!)*
+  
+* **Accuracy (98%):** Overall correct predictions across both normal and anomaly samples.
+* **Precision (90%):** Out of all flagged alerts, 9 out of 10 are real anomalies with very few false alarms.
+* **Recall (97%):** The model successfully catches almost all actual behavioral anomalies hidden in the dataset.
+* **F1-Score (93%):** A balance between precision and recall, proving our reconstruction error threshold is well-tuned.
+*(Check the attached diagram for our complete pipeline workflow!)*
 
 ---
 
@@ -54,3 +58,7 @@ Autoencoder
 
 ## ⚠️ Limitations We Noticed
 * **Threshold Sensitivity:** While the 60th percentile worked great for us here, real-world user habits change over time, meaning thresholds would need to adapt dynamically.
+
+## 💡 Publication
+
+Check out the full article here: [https://www.researchgate.net/publication/397086523_Unsupervised_Deep_Learning_for_Behavioral_and_Quality_Anomaly_Detection_in_5G_Networks_Early_Methods_and_Challenges]
